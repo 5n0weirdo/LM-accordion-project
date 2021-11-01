@@ -149,12 +149,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: repeat;
 }
 
 .container {
   width: 90vw;
   margin: 5rem auto;
-  background: var(--clr-white);
+  background: rgb(3, 3, 3);
   border-radius: var(--radius);
   padding: 2.5rem 2rem;
   max-width: var(--fixed-width);
@@ -215,7 +216,7 @@ main {
 .underline {
   height: 0.25rem;
   width: 15rem;
-  background: var(--clr-primary-5);
+  background: rgb(37, 100, 97);
   margin-left: auto;
   margin-right: auto;
 }

@@ -4,6 +4,7 @@ import data from "./data";
 import Question from "./Question";
 import SingleQuestion from "./Question";
 import war from "./img/war.jpg";
+import { FaGithubSquare } from "react-icons/fa";
 
 function App() {
   const [questions, setQuestions] = useState(data);
@@ -23,6 +24,9 @@ function App() {
           return <SingleQuestion key={question.id} {...question} />;
         })}
       </div>
+      <footer>
+        <FaGithubSquare />
+      </footer>
     </main>
   );
 }
