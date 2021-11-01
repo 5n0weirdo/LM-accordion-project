@@ -3,16 +3,19 @@ import questions from "./data";
 import data from "./data";
 import Question from "./Question";
 import SingleQuestion from "./Question";
+import war from "./img/war.jpg";
 
 function App() {
   const [questions, setQuestions] = useState(data);
   let snow = "❄️";
+  let dragon = "🐉";
   return (
-    <main>
+    <main style={{ backgroundImage: `url(${war})` }}>
       <div className="container">
         <h3>
-          <center>Questions and Answers about Game of Thrones</center>
-          <div></div>
+          <center>
+            {snow}Questions and Answers about Game of Thrones{dragon}
+          </center>
           <div className="underline"></div>
         </h3>
         <section className="info"></section>
