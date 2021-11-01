@@ -1,33 +1,53 @@
 const questions = [
   {
     id: 1,
-    title: 'Do I have to allow the use of cookies?',
-    info:
-      'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+    title: "Which character was the King beyond the wall?",
+    info: "Mance Rayder",
   },
   {
     id: 2,
-    title: 'How do I change my My Page password?',
-    info:
-      'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+    title:
+      "Which House is a direct vassal of House Baratheon of King's Landing?",
+    info: "Stokeworth",
   },
   {
     id: 3,
-    title: 'What is BankID?',
-    info:
-      'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+    title:
+      "How does Bran escape when the White Walkers attack the Three-Eyed Raven’s tree?",
+    info: "Hodor holds the door, allowing Meera to drag Bran to safety",
   },
   {
     id: 4,
-    title: 'Whose birth number can I use?',
-    info:
-      'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+    title: "What are the names of Daenerys’ three dragons?",
+    info: "Drogon, Rhaegal and Viserion",
   },
   {
     id: 5,
-    title: 'When do I recieve a password ordered by letter?',
-    info:
-      'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+    title: "What is Sansa Stark’s favorite treat?",
+    info: "lemon cakes",
   },
-]
-export default questions
+  {
+    id: 6,
+    title:
+      " The largest skull in the dungeons beneath King’s Landing belonged to which dragon?",
+    info: "Balerion (the Black Dread)",
+  },
+  {
+    id: 7,
+    title:
+      "What character in the show pledges an oath of loyalty to Catelyn Stark?",
+    info: " Brienne of Tarth",
+  },
+  {
+    id: 8,
+    title:
+      "Which character in 'Game Of Thrones' marries both Joffrey Baratheon and Tommen Baratheon?",
+    info: "Margaery Tyrell",
+  },
+  {
+    id: 9,
+    title: "Which character is the youngest Stark?",
+    info: "Rickon Stark",
+  },
+];
+export default questions;
