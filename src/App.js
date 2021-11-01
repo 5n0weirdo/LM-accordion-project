@@ -6,7 +6,6 @@ import SingleQuestion from "./Question";
 
 function App() {
   const [questions, setQuestions] = useState(data);
-  const { id, title, info } = data;
   return (
     <main>
       <div className="container">
