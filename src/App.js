@@ -15,8 +15,11 @@ function App() {
       <div className="container">
         <h3>
           <center>
-            {snow}Questions and Answers about Game of Thrones{dragon}
+            {snow}Questions and Answers about Game of Thrones{snow}
           </center>
+          <h3>
+            <center>Game of Thrones</center>
+          </h3>
           <div className="underline"></div>
         </h3>
         <section className="info"></section>
