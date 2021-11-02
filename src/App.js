@@ -17,6 +17,7 @@ function App() {
           <center>
             {snow}Questions and Answers{snow}
           </center>
+
           <h3>
             <center>
               {crown}Game of Thrones{crown}

@@ -161,6 +161,7 @@ main {
   max-width: var(--fixed-width);
   display: grid;
   gap: 1rem 2rem;
+  text-align: center;
 }
 .container h3 {
   line-height: 1.2;
