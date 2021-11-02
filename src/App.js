@@ -9,16 +9,18 @@ import { FaGithubSquare } from "react-icons/fa";
 function App() {
   const [questions, setQuestions] = useState(data);
   let snow = "❄️";
-  let dragon = "🐉";
+  let crown = "👑";
   return (
     <main style={{ backgroundImage: `url(${war})` }}>
       <div className="container">
         <h3>
           <center>
-            {snow}Questions and Answers about Game of Thrones{snow}
+            {snow}Questions and Answers{snow}
           </center>
           <h3>
-            <center>Game of Thrones</center>
+            <center>
+              {crown}Game of Thrones{crown}
+            </center>
           </h3>
           <div className="underline"></div>
         </h3>
